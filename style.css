@@ -99,6 +99,10 @@ body.dark .card {
     border-color: #a0b4d6;
 }
 
+body.dark li {
+  border-color: #a0b4d6;
+}
+
 body.dark #themeToggle {
     background: #1a1a2e;
     color: #e0e0e0;
