@@ -74,3 +74,34 @@ a {
     font-style: italic;
 }
 
+#themeToggle {
+    margin-top: 12px;
+    padding: 8px 16px;
+    border: 2px solid #1a2e5a;
+    background:white;
+    color: #1a2e5a;
+    font-size: 14px;
+    cursor:pointer;
+    border-radius: 4px;
+}
+body.dark .container {
+    background-color: #16213e;
+    color: #e0e0e0;
+}
+
+body.dark .section h2 {
+    color: #a0b4d6;
+    border-color: #a0b4d6;
+}
+
+body.dark .card {
+    background-color: #0f3460;
+    border-color: #a0b4d6;
+}
+
+body.dark #themeToggle {
+    background: #1a1a2e;
+    color: #e0e0e0;
+    border-color: #a0b4d6;
+}
+
